@@ -19,14 +19,10 @@ public class StudentController {
 	
 	@RequestMapping("/registration")
 	public String showForm(Model theModel) {
-		
-		
-		
+
 		//create student object
 		Student theStudent=new Student();
-	    
-		
-		
+
 		//add student object to the model
 		theModel.addAttribute("student",theStudent);
 		// add the country options to the model 

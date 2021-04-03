@@ -17,7 +17,6 @@
      <form:options items="${theCountryOptions}" />
     </form:select>
 	<br>
-	<br>
 	Favorite Language:
 	<br>
 	Java<form:radiobutton path="favoriteLanguage" value="Java"/>
@@ -25,7 +24,13 @@
 	C#<form:radiobutton path="favoriteLanguage" value="C#"/>
 	Scala<form:radiobutton path="favoriteLanguage" value="Scala"/>
 	
-	<br><br>
+	<br>
+	Select subjects any three:
+	<form:checkbox path="subject" value="Computer Science"/>Computer Science 
+	 <form:checkbox path="subject" value="Mathematics"/>Mathematics
+	<form:checkbox path="subject" value="Physics"/>Physics
+	 <form:checkbox path="subject" value="Statistics"/>Statistics
+	<br>
 	<input type="submit" value="Submit"/>
 	
 	</form:form>
